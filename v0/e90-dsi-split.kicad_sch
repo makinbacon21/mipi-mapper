@@ -5022,6 +5022,10 @@
 		(uuid "3de05ea0-1cb1-4be8-acec-42e1a81c96ad")
 	)
 	(no_connect
+		(at 76.2 186.69)
+		(uuid "3ea3e504-20b8-4a6d-b556-b8a7cc335fe7")
+	)
+	(no_connect
 		(at 66.04 71.12)
 		(uuid "4187f794-4d4b-42ea-8261-aa9ff08d5da4")
 	)
@@ -8340,12 +8344,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-5V5"
-			(at 133.35 86.36 0)
+		(property "Value" "-6V"
+			(at 135.89 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -10887,7 +10892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-5V5"
+		(property "Value" "-6V"
 			(at 125.73 193.0399 90)
 			(effects
 				(font
