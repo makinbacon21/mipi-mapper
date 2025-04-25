@@ -4947,12 +4947,6 @@
 		(uuid "80e437f0-0385-4093-8c58-f16e3cb49e43")
 	)
 	(junction
-		(at 99.06 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8bfe4658-3527-496e-ab81-ccb3f3d9d95c")
-	)
-	(junction
 		(at 74.93 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4983,12 +4977,6 @@
 		(uuid "a6b1aca4-2a78-4ef4-b439-05e35af2c23a")
 	)
 	(junction
-		(at 99.06 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4f5f7ea-acec-46ac-a150-b341c142a9cc")
-	)
-	(junction
 		(at 260.35 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5001,10 +4989,22 @@
 		(uuid "c99cc72e-841b-4c3f-912d-f42f88dd017d")
 	)
 	(junction
+		(at 97.79 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf3f52fe-a804-46d4-9a03-f06706cb0128")
+	)
+	(junction
 		(at 156.21 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd33c616-25bb-4092-a56d-6b716e0dc2d2")
+	)
+	(junction
+		(at 97.79 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9fa3ad4-d4b3-4cb7-b127-ebfbb175cf96")
 	)
 	(junction
 		(at 260.35 64.77)
@@ -5101,6 +5101,16 @@
 	(no_connect
 		(at 252.73 120.65)
 		(uuid "f374c553-3ad5-4df6-ba6b-a1c7b89760c0")
+	)
+	(wire
+		(pts
+			(xy 97.79 193.04) (xy 105.41 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04ead064-5a1c-4c03-ac19-d230e7ae871f")
 	)
 	(wire
 		(pts
@@ -5364,6 +5374,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 173.99) (xy 99.06 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b16fbf8-a914-4835-b4b1-1fba94ba98ae")
+	)
+	(wire
+		(pts
 			(xy 254 100.33) (xy 247.65 100.33)
 		)
 		(stroke
@@ -5441,16 +5461,6 @@
 			(type default)
 		)
 		(uuid "40dcae8e-4297-4b45-b8f7-31974052ed7c")
-	)
-	(wire
-		(pts
-			(xy 96.52 184.15) (xy 99.06 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40f17e33-8372-4b1e-8110-ad0d1bb7e953")
 	)
 	(wire
 		(pts
@@ -5704,7 +5714,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 173.99) (xy 105.41 173.99)
+			(xy 104.14 173.99) (xy 105.41 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6094,7 +6104,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 190.5) (xy 99.06 193.04)
+			(xy 97.79 181.61) (xy 97.79 193.04)
 		)
 		(stroke
 			(width 0)
@@ -6374,7 +6384,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 193.04) (xy 99.06 193.04)
+			(xy 86.36 193.04) (xy 97.79 193.04)
 		)
 		(stroke
 			(width 0)
@@ -6604,7 +6614,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 184.15) (xy 105.41 184.15)
+			(xy 96.52 184.15) (xy 105.41 184.15)
 		)
 		(stroke
 			(width 0)
@@ -6634,6 +6644,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 173.99) (xy 97.79 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df0002d1-bcd9-416c-a958-4bbd72bc4342")
+	)
+	(wire
+		(pts
 			(xy 90.17 76.2) (xy 97.79 76.2)
 		)
 		(stroke
@@ -6651,16 +6671,6 @@
 			(type default)
 		)
 		(uuid "e3d92386-b505-4947-ace9-ea28edd2829e")
-	)
-	(wire
-		(pts
-			(xy 105.41 193.04) (xy 99.06 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6a41cc3-1c01-47d3-8d89-6188753751cb")
 	)
 	(wire
 		(pts
@@ -6751,16 +6761,6 @@
 			(type default)
 		)
 		(uuid "f4fcd769-4e14-4554-adb1-6eccd6e2e3ff")
-	)
-	(wire
-		(pts
-			(xy 99.06 184.15) (xy 99.06 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7ac0078-77d5-40e9-a6f8-1b48415fef9f")
 	)
 	(wire
 		(pts
@@ -8835,7 +8835,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "20k"
 			(at 106.934 188.976 0)
 			(effects
 				(font
@@ -10252,7 +10252,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 100.33 173.99 90)
+		(at 101.6 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10261,7 +10261,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5a01776-fd8b-4fcc-8d2a-f617d015be73")
 		(property "Reference" "L1"
-			(at 100.33 168.91 90)
+			(at 101.6 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10269,7 +10269,7 @@
 			)
 		)
 		(property "Value" "56uH"
-			(at 100.33 171.45 90)
+			(at 101.6 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10277,7 +10277,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1812_4532Metric"
-			(at 100.33 173.99 0)
+			(at 101.6 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10286,7 +10286,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 173.99 0)
+			(at 101.6 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,7 +10295,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 100.33 173.99 0)
+			(at 101.6 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10387,7 +10387,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener_Small")
-		(at 99.06 187.96 270)
+		(at 97.79 179.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10395,16 +10395,16 @@
 		(dnp no)
 		(uuid "c3a166cb-a40c-4c44-bdca-179d3067cdaa")
 		(property "Reference" "D1"
-			(at 100.584 187.96 90)
+			(at 96.774 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "~"
-			(at 101.6 189.23 90)
+			(at 100.33 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10413,7 +10413,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 99.06 187.96 90)
+			(at 97.79 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10422,7 +10422,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 187.96 90)
+			(at 97.79 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10431,7 +10431,7 @@
 			)
 		)
 		(property "Description" "Zener diode, small symbol"
-			(at 99.06 187.96 0)
+			(at 97.79 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10644,7 +10644,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "65k"
+		(property "Value" "130k"
 			(at 103.886 180.34 0)
 			(effects
 				(font
